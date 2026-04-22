@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(211, 210, 210, 0.378);
+    padding: 40px ;
+}
+.faq h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2rem;
+
+}
+.faq details{
+    max-width: 500px;
+    margin: 10px auto;
+    background: violet;
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid ;
+
+}
+.faq details>summary{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
