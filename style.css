@@ -32,3 +32,47 @@ section{
     font-weight: 600;
 
 }
+
+.faq2{
+    background: rgba(67, 77, 67, 0.269);
+}
+.faq2 h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.faq2 .accordiam{
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;  
+    cursor: pointer;
+
+}
+.question h4{
+    font-size: 1.7rem;
+
+}
+.question {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.3;
+    font-size: 1.2rem;
+}
+.accordiam.active .answer{
+    max-height: 300px;
+}
